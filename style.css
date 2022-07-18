@@ -1,0 +1,142 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.container-satu {
+    padding: 10px;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    border: 1px solid grey;
+    background-color: whitesmoke;
+}
+
+.logo-nav {
+    background-image: url(img/logonav.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    order: 3;
+    width: 150vh;
+    padding-left: 10%;
+}
+
+.navbar a {
+    width: 100%;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.192);
+    box-sizing: border-box;
+}
+
+.navbar a:hover {
+    background-color: rgb(116, 150, 218);
+    color: whitesmoke;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 12px 12px 12px;
+}
+
+/* wrapper group area */
+.wrapper {
+    display: flex;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+.group a {
+    text-decoration: none;
+    color: #333;
+}
+
+.group li {
+    list-style-type: none;
+}
+
+.group ul {
+    padding: 18px;
+    line-height: 25px;
+}
+
+.group {
+    padding: 10px;
+}
+
+.group h2, li {
+    margin: auto;
+}
+
+
+/* content area */
+.content {
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+}
+
+.account {
+    width: 100%;
+    margin: 10px;
+
+}
+
+.account-wrapper {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    justify-content: flex-start;
+}
+
+.account img {
+    width: 28px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.creator {
+    /* margin-left: 10px; */
+}
+
+.content h4 {
+    margin: 5px;
+    height: fit-content;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.profil {
+    background-image: url(img/profil.png);
+    background-size: cover;
+    width: 28px;
+    height: 28px;
+    display: flex;
+}
+
+.time {
+    margin: 5px;
+    height: fit-content;
+    font-size: 12px;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
